@@ -1,0 +1,412 @@
+body {
+    box-sizing: border-box;
+    color: #414042;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 83px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* White */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    -webkit-box-shadow: -16px 0px 23px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -16px 0px 23px -1px rgba(0, 0, 0, 1);
+    box-shadow: -16px 0px 23px -1px rgba(0, 0, 0, 1);
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* header */
+.header-content h4 {
+
+    font-size: 15px;
+    color: #3DBFEC;
+
+
+}
+
+.prod {
+    margin-right: 5.6vw;
+
+}
+
+.prod button {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.prod button:hover > h4 {
+
+    color: #34a1c5;
+
+}
+.no-wrap{
+
+    white-space: nowrap;
+
+}
+
+/*shape - circle*/
+.shape-circle {
+    margin-top: 60px;
+
+    width: 60px;
+    height: 60px;
+    background: #3DBFEC;
+    border-radius: 50%;
+
+}
+
+/* sidebar */
+.sidebar-profile {
+    text-align: center;
+    height: 100px;
+}
+
+.sidebar-profile h5 {
+    font-weight: bold;
+    color: #48c7f1;
+}
+
+.sidebar-logo {
+    font-weight: bold;
+}
+
+.sidenav .nav-button {
+    margin-top: 70px;
+    margin-bottom: -50px;
+    width: 100%;
+    height: 50px;
+}
+.nav-button i{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 30px;
+    height: 30px;
+    color:white;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: #48c7f1;
+    font-size: 15px;
+
+}
+
+#myDIV .nav-button img {
+    width: 25px;
+    height: 25px;
+    
+}
+
+.nav-button {
+    border-right: 2px solid #f2fafc;
+}
+
+.active {
+    background: #f2fafc;
+    border-right: 2px solid #5ab7e2;
+}
+
+.nav-button:hover {
+
+    background: #f2fafc;
+
+}
+
+.navbar .account-profile {
+    margin-right: 100px;
+}
+
+.navbar {
+    background: #f6f6f7c9;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    height: 70px;
+}
+
+.user-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 5.5vw;
+}
+
+.user-account h5 {
+    margin-left: 10px;
+    color: #414042;
+}
+
+.user-account .fas {
+    height: 22px;
+    color: #414042;
+}
+
+.wrapper {
+    padding: 40px 40px 10px 140px;
+    margin-right: 40px;
+
+
+}
+
+.tbl {
+    margin-left: 20px;
+}
+
+.bold {
+    font-family: 'MADE TOMMY';
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* main */
+
+/* table */
+thead{
+    white-space: nowrap;
+}
+
+.table{
+
+    table-layout: unset;
+
+}
+#table-scroll {
+    /* change table hight below */
+    height: 54.4vh;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+
+#table-wrapper table thead th .text {
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+    height: 20px;
+    width: 35%;
+    border: 1px solid red;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+
+
+}
+
+.text-footer {
+    color: rgba(197, 197, 197, 0.658);
+}
+
+
+
+
+.table-img-cont {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.thead-text {
+    font-family: 'MADE TOMMY';
+    font-weight: normal;
+    font-style: normal;
+    color: #424141;
+    margin-top: 10px;
+}
+
+thead th {
+    height: 70px;
+}
+
+.tbody-text {
+
+    font-family: 'MADE TOMMY';
+    font-weight: normal;
+    font-style: normal;
+
+}
+.red{
+    color: red;
+}
+.text-primaryv2{
+    color: #3DBFEC ;
+}
+
+.text-dangerv2{
+    color: rgb(230, 19, 19) ;
+}
+
+
+select{
+
+    color: #3DBFEC !important;
+}
+  
+
+
+/* Style the buttons */
+.edit-btn {
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #3DBFEC;
+    color: white;
+    font-family: 'MADE TOMMY';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+.edit-btn:hover {
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #38b0d8;
+    color: white;
+    font-family: 'MADE TOMMY';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+.delete-btn {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #e90b0b;
+    color: white;
+    font-family: 'MADE TOMMY';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+
+
+}
+
+.delete-btn:hover {
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #ce0909;
+    color: white;
+    font-family: 'MADE TOMMY';
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+
+.btn-cluster {
+    margin: 10px;
+}
+
+/* Customize website's scrollbar*/
+div::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+
+}
+
+div::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(245, 245, 245, 0.753);
+}
+
+div::-webkit-scrollbar-thumb {
+    transition: 2s;
+    background: rgba(201, 201, 201, 0.753);
+    border-radius: 10px;
+
+}
+
+div::-webkit-scrollbar-thumb:hover {
+
+    background: rgba(189, 189, 189, 0.753);
+    border-radius: 10px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    text-align: center;
+    font-size: 8px;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+/* line separator */
+
+/* total width */
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* fonts */
